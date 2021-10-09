@@ -1,0 +1,25 @@
+@import "src"
+.header
+  display: flex
+  justify-content: space-between
+  margin-top: 20px
+  input
+    max-width: 80%
+    width: 100%
+    border-radius: $border-radius
+    padding: 20px
+    border: none
+    background: $gray
+    &:focus-visible
+      outline: 1px solid $white
+      color: $white
+  .btn
+    border: none
+    border-radius: $border-radius
+    width: 100%
+    max-width: 15%
+    cursor: pointer
+    &:hover
+      background: $black
+      color: $white
+      transition: .3s
